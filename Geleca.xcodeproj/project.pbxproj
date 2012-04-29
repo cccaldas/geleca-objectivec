@@ -33,13 +33,15 @@
 		6C3587A2154DC4FC00B6FC56 /* ViewUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358781154DC4FC00B6FC56 /* ViewUtil.m */; };
 		6C3587A3154DC4FC00B6FC56 /* GView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358784154DC4FC00B6FC56 /* GView.m */; };
 		6C3587A4154DC4FC00B6FC56 /* GViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358787154DC4FC00B6FC56 /* GViewController.m */; };
-		6C3587A5154DC4FC00B6FC56 /* URLLoaderTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35878B154DC4FC00B6FC56 /* URLLoaderTestCase.m */; };
+		6C3587A5154DC4FC00B6FC56 /* URLLoaderGetTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35878B154DC4FC00B6FC56 /* URLLoaderGetTestCase.m */; };
 		6C3587A6154DC4FC00B6FC56 /* LoadingSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35878E154DC4FC00B6FC56 /* LoadingSuite.m */; };
 		6C3587A7154DC4FC00B6FC56 /* TestAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358790154DC4FC00B6FC56 /* TestAppViewController.m */; };
 		6C3587AC154DC5D500B6FC56 /* URLLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587AB154DC5D500B6FC56 /* URLLoader.m */; };
 		6C3587B3154DC80C00B6FC56 /* URLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B2154DC80C00B6FC56 /* URLUtil.m */; };
 		6C3587B6154DD37C00B6FC56 /* EventDispatcherTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */; };
 		6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B8154DDA4800B6FC56 /* EventsSuite.m */; };
+		6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BB154DDEC800B6FC56 /* GLabel.m */; };
+		6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,8 +97,8 @@
 		6C358784154DC4FC00B6FC56 /* GView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GView.m; sourceTree = "<group>"; };
 		6C358786154DC4FC00B6FC56 /* GViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GViewController.h; sourceTree = "<group>"; };
 		6C358787154DC4FC00B6FC56 /* GViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GViewController.m; sourceTree = "<group>"; };
-		6C35878A154DC4FC00B6FC56 /* URLLoaderTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLLoaderTestCase.h; sourceTree = "<group>"; };
-		6C35878B154DC4FC00B6FC56 /* URLLoaderTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLLoaderTestCase.m; sourceTree = "<group>"; };
+		6C35878A154DC4FC00B6FC56 /* URLLoaderGetTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLLoaderGetTestCase.h; sourceTree = "<group>"; };
+		6C35878B154DC4FC00B6FC56 /* URLLoaderGetTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLLoaderGetTestCase.m; sourceTree = "<group>"; };
 		6C35878D154DC4FC00B6FC56 /* LoadingSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingSuite.h; sourceTree = "<group>"; };
 		6C35878E154DC4FC00B6FC56 /* LoadingSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingSuite.m; sourceTree = "<group>"; };
 		6C35878F154DC4FC00B6FC56 /* TestAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestAppViewController.h; sourceTree = "<group>"; };
@@ -109,6 +111,10 @@
 		6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDispatcherTestCase.m; sourceTree = "<group>"; };
 		6C3587B7154DDA4800B6FC56 /* EventsSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsSuite.h; sourceTree = "<group>"; };
 		6C3587B8154DDA4800B6FC56 /* EventsSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsSuite.m; sourceTree = "<group>"; };
+		6C3587BA154DDEC800B6FC56 /* GLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLabel.h; sourceTree = "<group>"; };
+		6C3587BB154DDEC800B6FC56 /* GLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLabel.m; sourceTree = "<group>"; };
+		6C3587BD154DE1E900B6FC56 /* URLLoaderPostTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLLoaderPostTestCase.h; sourceTree = "<group>"; };
+		6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLLoaderPostTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +354,8 @@
 		6C358778154DC4FC00B6FC56 /* label */ = {
 			isa = PBXGroup;
 			children = (
+				6C3587BA154DDEC800B6FC56 /* GLabel.h */,
+				6C3587BB154DDEC800B6FC56 /* GLabel.m */,
 			);
 			path = label;
 			sourceTree = "<group>";
@@ -403,10 +411,12 @@
 		6C358789154DC4FC00B6FC56 /* case */ = {
 			isa = PBXGroup;
 			children = (
-				6C35878A154DC4FC00B6FC56 /* URLLoaderTestCase.h */,
-				6C35878B154DC4FC00B6FC56 /* URLLoaderTestCase.m */,
+				6C35878A154DC4FC00B6FC56 /* URLLoaderGetTestCase.h */,
+				6C35878B154DC4FC00B6FC56 /* URLLoaderGetTestCase.m */,
 				6C3587B4154DD37C00B6FC56 /* EventDispatcherTestCase.h */,
 				6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */,
+				6C3587BD154DE1E900B6FC56 /* URLLoaderPostTestCase.h */,
+				6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */,
 			);
 			path = case;
 			sourceTree = "<group>";
@@ -515,13 +525,15 @@
 				6C3587A2154DC4FC00B6FC56 /* ViewUtil.m in Sources */,
 				6C3587A3154DC4FC00B6FC56 /* GView.m in Sources */,
 				6C3587A4154DC4FC00B6FC56 /* GViewController.m in Sources */,
-				6C3587A5154DC4FC00B6FC56 /* URLLoaderTestCase.m in Sources */,
+				6C3587A5154DC4FC00B6FC56 /* URLLoaderGetTestCase.m in Sources */,
 				6C3587A6154DC4FC00B6FC56 /* LoadingSuite.m in Sources */,
 				6C3587A7154DC4FC00B6FC56 /* TestAppViewController.m in Sources */,
 				6C3587AC154DC5D500B6FC56 /* URLLoader.m in Sources */,
 				6C3587B3154DC80C00B6FC56 /* URLUtil.m in Sources */,
 				6C3587B6154DD37C00B6FC56 /* EventDispatcherTestCase.m in Sources */,
 				6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */,
+				6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */,
+				6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

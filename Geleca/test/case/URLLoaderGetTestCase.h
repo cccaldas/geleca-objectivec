@@ -9,7 +9,7 @@
 #import "GTestCase.h"
 #import "URLLoader.h"
 
-@interface URLLoaderTestCase : GTestCase {
+@interface URLLoaderGetTestCase : GTestCase {
 	URLLoader		*_loader;
 	UIImageView		*_image;
 }

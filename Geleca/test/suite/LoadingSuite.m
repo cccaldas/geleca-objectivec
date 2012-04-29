@@ -7,14 +7,16 @@
 */
 
 #import "LoadingSuite.h"
-#import "URLLoaderTestCase.h"
+#import "URLLoaderGetTestCase.h"
+#import "URLLoaderPostTestCase.h"
 
 @implementation LoadingSuite
 
 -(void)setup {
 	[super setup];
 	
-	[self addTestCase:[[URLLoaderTestCase alloc] init]];
+	[self addTestCase:[[URLLoaderGetTestCase alloc] init]];
+	[self addTestCase:[[URLLoaderPostTestCase alloc] init]];
 }
 
 @end

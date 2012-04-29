@@ -8,9 +8,15 @@
 
 #import "GTestCase.h"
 #import "EventDispatcher.h"
+#import "GViewController.h"
+#import "GComponent.h"
+#import "GLabel.h"
 
 @interface EventDispatcherTestCase : GTestCase {
 	EventDispatcher *dispatcher;
+	GViewController *viewController;
+	GComponent		*component;
+	GLabel			*label;
 }
 
 @end

@@ -18,6 +18,7 @@
 @property (nonatomic)			float		progress;
 @property (nonatomic, retain)	NSString	*url;
 
--(void)load:(NSString *)_url;
+-(void)get:(NSString *)_url;
+-(void)post:(NSString *)_url postData:(NSDictionary *)postData;
 
 @end

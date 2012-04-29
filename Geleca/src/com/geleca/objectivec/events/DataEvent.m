@@ -1,21 +1,33 @@
 /*
-	DataEvent.h
-	Geleca
+ DataEvent.m
+ Geleca
  
-	Created by Cristiano Coutinho Caldas on 4/7/12.
-	Copyright (c) 2012 Simbionte Studios. All rights reserved.
-*/
+ Created by Cristiano Coutinho Caldas on 4/7/12.
+ Copyright (c) 2012 Simbionte Studios. All rights reserved.
+ */
 
-#import <Foundation/Foundation.h>
-#import "Event.h"
+#import "DataEvent.h"
 
-@interface DataEvent : Event {
+@implementation DataEvent
+@synthesize data;
+
+-(id)initWithType:(NSString *)_type data:(id)_data {
+	if((self = [super init])){
+		self.type = _type;
+		self.data = _data;
+	}
 	
+	return self;
 }
 
-@property (nonatomic, strong) id data;
++(id)withType:(NSString *)type data:(id)data {
+	return [[[DataEvent alloc] initWithType:type data:data] autorelease];
+}
 
--(id)initWithType:(NSString *)type data:(id)_data;
-+(id)withType:(NSString *)type data:(id)data;
+-(void)dealloc {
+	self.data = nil;
+	
+	[super dealloc];
+}
 
 @end

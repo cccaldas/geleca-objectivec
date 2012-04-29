@@ -17,11 +17,8 @@
 -(void)setup {
 	[super setup];
 	
-	suite_loading	= [self addTestSuite:[[LoadingSuite alloc] init]];
-	suite_events	= [self addTestSuite:[[EventsSuite alloc] init]];
-	
-	[suite_loading run];
-	//[suite_events run];
+	suite_loading	= [self addTestSuite:[[LoadingSuite alloc] init]]; [suite_loading run];
+	//suite_events	= [self addTestSuite:[[EventsSuite alloc] init]]; [suite_events run];	
 }
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
