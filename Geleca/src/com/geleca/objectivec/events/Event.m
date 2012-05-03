@@ -28,6 +28,7 @@
 +(NSString *)CHANGE		{ return @"change"; }
 +(NSString *)CANCEL		{ return @"cancel"; }
 +(NSString *)ADD		{ return @"add"; }
++(NSString *)SELECT		{ return @"select"; }
 
 -(void)dealloc {
 	self.target = nil;

@@ -20,5 +20,6 @@
 
 -(void)get:(NSString *)_url;
 -(void)post:(NSString *)_url postData:(NSDictionary *)postData;
+-(void)cancel;
 
 @end

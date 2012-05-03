@@ -23,5 +23,6 @@
 +(NSString *)CHANGE;
 +(NSString *)CANCEL;
 +(NSString *)ADD;
++(NSString *)SELECT;
 
 @end

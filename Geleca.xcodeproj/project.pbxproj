@@ -42,6 +42,8 @@
 		6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B8154DDA4800B6FC56 /* EventsSuite.m */; };
 		6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BB154DDEC800B6FC56 /* GLabel.m */; };
 		6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */; };
+		6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358918154DF16700B6FC56 /* AlignUtil.m */; };
+		6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35891E154DF27A00B6FC56 /* NumberFormatter.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -115,6 +117,10 @@
 		6C3587BB154DDEC800B6FC56 /* GLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLabel.m; sourceTree = "<group>"; };
 		6C3587BD154DE1E900B6FC56 /* URLLoaderPostTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLLoaderPostTestCase.h; sourceTree = "<group>"; };
 		6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLLoaderPostTestCase.m; sourceTree = "<group>"; };
+		6C358917154DF16600B6FC56 /* AlignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignUtil.h; sourceTree = "<group>"; };
+		6C358918154DF16700B6FC56 /* AlignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignUtil.m; sourceTree = "<group>"; };
+		6C35891D154DF27900B6FC56 /* NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
+		6C35891E154DF27A00B6FC56 /* NumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -363,6 +369,8 @@
 		6C358779154DC4FC00B6FC56 /* util */ = {
 			isa = PBXGroup;
 			children = (
+				6C35891D154DF27900B6FC56 /* NumberFormatter.h */,
+				6C35891E154DF27A00B6FC56 /* NumberFormatter.m */,
 				6C35877A154DC4FC00B6FC56 /* ColorUtil.h */,
 				6C35877B154DC4FC00B6FC56 /* ColorUtil.m */,
 				6C35877C154DC4FC00B6FC56 /* DateUtil.h */,
@@ -373,6 +381,8 @@
 				6C358781154DC4FC00B6FC56 /* ViewUtil.m */,
 				6C3587B1154DC80C00B6FC56 /* URLUtil.h */,
 				6C3587B2154DC80C00B6FC56 /* URLUtil.m */,
+				6C358917154DF16600B6FC56 /* AlignUtil.h */,
+				6C358918154DF16700B6FC56 /* AlignUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -534,6 +544,8 @@
 				6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */,
 				6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */,
 				6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */,
+				6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */,
+				6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

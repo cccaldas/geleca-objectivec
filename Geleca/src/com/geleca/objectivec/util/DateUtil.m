@@ -44,6 +44,11 @@
 	return [[DateUtil stringWithDate:today format:@"yyyyMMdd"] isEqualToString:[DateUtil stringWithDate:date format:@"yyyyMMdd"]];
 }
 
++(BOOL)isTomorrow:(NSDate *)date {
+	NSDate *tomorrow = [DateUtil addDays:[NSDate date] days:1];
+	return [[DateUtil stringWithDate:tomorrow format:@"yyyyMMdd"] isEqualToString:[DateUtil stringWithDate:date format:@"yyyyMMdd"]];
+}
+
 +(NSDate *)addDays:(NSDate *)date days:(int)days {
 	return [date dateByAddingTimeInterval:60 * 60 * 24 * days];
 }
