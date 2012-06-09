@@ -7,12 +7,9 @@
 */
 
 #import "GTestViewController.h"
-#import "LoadingSuite.h"
-#import "EventsSuite.h"
 
 @interface TestAppViewController : GTestViewController {
-	LoadingSuite	*suite_loading;
-	EventsSuite		*suite_events;
+	
 }
 
 @end

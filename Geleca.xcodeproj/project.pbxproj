@@ -44,6 +44,9 @@
 		6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */; };
 		6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358918154DF16700B6FC56 /* AlignUtil.m */; };
 		6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35891E154DF27A00B6FC56 /* NumberFormatter.m */; };
+		6CBDA7861583DFC4007E1B50 /* DataUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBDA7851583DFC4007E1B50 /* DataUtil.m */; };
+		6CBDA78A1583E13F007E1B50 /* UtilSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBDA7891583E13F007E1B50 /* UtilSuite.m */; };
+		6CBDA78D1583E21D007E1B50 /* DataUtilTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6CBDA78C1583E21D007E1B50 /* DataUtilTestCase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -121,6 +124,12 @@
 		6C358918154DF16700B6FC56 /* AlignUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlignUtil.m; sourceTree = "<group>"; };
 		6C35891D154DF27900B6FC56 /* NumberFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumberFormatter.h; sourceTree = "<group>"; };
 		6C35891E154DF27A00B6FC56 /* NumberFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NumberFormatter.m; sourceTree = "<group>"; };
+		6CBDA7841583DFC4007E1B50 /* DataUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtil.h; sourceTree = "<group>"; };
+		6CBDA7851583DFC4007E1B50 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
+		6CBDA7881583E13F007E1B50 /* UtilSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilSuite.h; sourceTree = "<group>"; };
+		6CBDA7891583E13F007E1B50 /* UtilSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilSuite.m; sourceTree = "<group>"; };
+		6CBDA78B1583E21D007E1B50 /* DataUtilTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DataUtilTestCase.h; sourceTree = "<group>"; };
+		6CBDA78C1583E21D007E1B50 /* DataUtilTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtilTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -383,6 +392,8 @@
 				6C3587B2154DC80C00B6FC56 /* URLUtil.m */,
 				6C358917154DF16600B6FC56 /* AlignUtil.h */,
 				6C358918154DF16700B6FC56 /* AlignUtil.m */,
+				6CBDA7841583DFC4007E1B50 /* DataUtil.h */,
+				6CBDA7851583DFC4007E1B50 /* DataUtil.m */,
 			);
 			path = util;
 			sourceTree = "<group>";
@@ -427,6 +438,8 @@
 				6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */,
 				6C3587BD154DE1E900B6FC56 /* URLLoaderPostTestCase.h */,
 				6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */,
+				6CBDA78B1583E21D007E1B50 /* DataUtilTestCase.h */,
+				6CBDA78C1583E21D007E1B50 /* DataUtilTestCase.m */,
 			);
 			path = case;
 			sourceTree = "<group>";
@@ -438,6 +451,8 @@
 				6C35878E154DC4FC00B6FC56 /* LoadingSuite.m */,
 				6C3587B7154DDA4800B6FC56 /* EventsSuite.h */,
 				6C3587B8154DDA4800B6FC56 /* EventsSuite.m */,
+				6CBDA7881583E13F007E1B50 /* UtilSuite.h */,
+				6CBDA7891583E13F007E1B50 /* UtilSuite.m */,
 			);
 			path = suite;
 			sourceTree = "<group>";
@@ -546,6 +561,9 @@
 				6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */,
 				6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */,
 				6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */,
+				6CBDA7861583DFC4007E1B50 /* DataUtil.m in Sources */,
+				6CBDA78A1583E13F007E1B50 /* UtilSuite.m in Sources */,
+				6CBDA78D1583E21D007E1B50 /* DataUtilTestCase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

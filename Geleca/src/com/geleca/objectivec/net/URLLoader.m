@@ -31,6 +31,9 @@
 	}
 	
 	strData = [strData substringFromIndex:1];
+	//strData = [strData stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	
+	//NSLog(@"URLLoader, strData %@", strData);
 	
 	NSData *sendData = [strData dataUsingEncoding:NSUTF8StringEncoding allowLossyConversion:NO];
 	

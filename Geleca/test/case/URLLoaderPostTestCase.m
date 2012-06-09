@@ -30,7 +30,7 @@
 										@"Descrição 1", @"descricao", 
 						  nil] autorelease];
 	
-	[_loader post:@"http://localhost/projects/geleca/objectivec/Geleca/service/post.php" postData:data];
+	[_loader post:@"http://localhost/cccaldas/projects/geleca/objectivec/service/post.php" postData:data];
 }
 
 -(void)loader_progress:(ProgressEvent *)e {
