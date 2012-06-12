@@ -27,7 +27,9 @@
 -(void)assert:(BOOL)condition description:(NSString *)description {
 	_assertions ++;
 	
-	NSAssert(condition, description);
+	if(!condition)
+		NSLog(@"[FAILED] %@", description);
+	//NSAssert(condition, description);
 }
 
 -(int)assertions { return _assertions; }

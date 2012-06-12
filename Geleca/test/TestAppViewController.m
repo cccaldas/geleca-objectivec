@@ -10,6 +10,7 @@
 #import "LoadingSuite.h"
 #import "EventsSuite.h"
 #import "UtilSuite.h"
+#import "ComponentsSuite.h"
 
 @interface TestAppViewController ()
 
@@ -23,7 +24,7 @@
 
 	//[((EventsSuite *)[self addTestSuite:[[EventsSuite alloc] init]]) run];
 	//[((LoadingSuite *)[self addTestSuite:[[LoadingSuite alloc] init]]) run];
-	[((UtilSuite *)[self addTestSuite:[[UtilSuite alloc] init]]) run];
+	[[self addTestSuite:[[ComponentsSuite alloc] init]] run];
 }
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {

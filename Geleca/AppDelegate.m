@@ -3,10 +3,11 @@
 	Geleca
 	
 	Created by Cristiano Coutinho Caldas on 4/29/12.
-	Copyright (c) 2012 Simbionte Studios. All rights reserved.
+	Copyright (c) 2012 Cristiano Coutinho Caldas. All rights reserved.
 */
 
 #import "AppDelegate.h"
+#import "TestAppViewController.h"
 
 @implementation AppDelegate
 
@@ -20,8 +21,7 @@
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
 	
-	vct_test = [[TestAppViewController alloc] init];
-	self.window.rootViewController = vct_test;
+	self.window.rootViewController = [[TestAppViewController alloc] init];
 	
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];

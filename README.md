@@ -1,2 +1,2 @@
-geleca-objectivec
-=================
+Geleca Framework for iOS
+=========================

@@ -51,16 +51,6 @@
 	[component release];
 	component = nil;
 	
-	//label
-	label = [[GLabel alloc] init];
-	[label addEventListener:[Event COMPLETE] target:self listener:@selector(event_complete:)];
-	[label addEventListener:[Event CHANGE] target:self listener:@selector(event_change:)];
-	[label dispatchEvent:[Event withType:[Event COMPLETE]]];
-	[label dispatchEvent:[Event withType:[Event CHANGE]]];
-	[label dispatchEvent:[Event withType:[Event COMPLETE]]];
-	[label dispatchEvent:[Event withType:[Event CHANGE]]];
-	[label release];
-	label = nil;
 }
 
 -(void)event_complete:(Event *)e {

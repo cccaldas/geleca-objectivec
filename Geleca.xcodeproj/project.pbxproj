@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C2C71511586EAEF007EC126 /* GComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C714C1586EAEF007EC126 /* GComponent.m */; };
+		6C2C71521586EAEF007EC126 /* GImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C714E1586EAEF007EC126 /* GImage.m */; };
+		6C2C71531586EAEF007EC126 /* GLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C71501586EAEF007EC126 /* GLabel.m */; };
+		6C2C71561586EE25007EC126 /* ViewComponentsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C71551586EE25007EC126 /* ViewComponentsTestCase.m */; };
+		6C2C71591586EE47007EC126 /* ComponentsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C71581586EE47007EC126 /* ComponentsSuite.m */; };
+		6C2C715C1586F410007EC126 /* GButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C715B1586F410007EC126 /* GButton.m */; };
+		6C2C715F1586F6BD007EC126 /* GTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C715E1586F6BD007EC126 /* GTextField.m */; };
+		6C2C71621586F6FD007EC126 /* GTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C2C71611586F6FC007EC126 /* GTextView.m */; };
 		6C35872F154DC4A200B6FC56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C35872E154DC4A200B6FC56 /* UIKit.framework */; };
 		6C358731154DC4A200B6FC56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C358730154DC4A200B6FC56 /* Foundation.framework */; };
 		6C358733154DC4A200B6FC56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C358732154DC4A200B6FC56 /* CoreGraphics.framework */; };
@@ -25,8 +33,6 @@
 		6C35879A154DC4FC00B6FC56 /* GTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35876B154DC4FC00B6FC56 /* GTestCase.m */; };
 		6C35879B154DC4FC00B6FC56 /* GTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35876D154DC4FC00B6FC56 /* GTestViewController.m */; };
 		6C35879C154DC4FC00B6FC56 /* GTestSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358770154DC4FC00B6FC56 /* GTestSuite.m */; };
-		6C35879D154DC4FC00B6FC56 /* GComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358774154DC4FC00B6FC56 /* GComponent.m */; };
-		6C35879E154DC4FC00B6FC56 /* GImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358777154DC4FC00B6FC56 /* GImage.m */; };
 		6C35879F154DC4FC00B6FC56 /* ColorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35877B154DC4FC00B6FC56 /* ColorUtil.m */; };
 		6C3587A0154DC4FC00B6FC56 /* DateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35877D154DC4FC00B6FC56 /* DateUtil.m */; };
 		6C3587A1154DC4FC00B6FC56 /* FunctionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35877F154DC4FC00B6FC56 /* FunctionUtil.m */; };
@@ -40,7 +46,6 @@
 		6C3587B3154DC80C00B6FC56 /* URLUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B2154DC80C00B6FC56 /* URLUtil.m */; };
 		6C3587B6154DD37C00B6FC56 /* EventDispatcherTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */; };
 		6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587B8154DDA4800B6FC56 /* EventsSuite.m */; };
-		6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BB154DDEC800B6FC56 /* GLabel.m */; };
 		6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */; };
 		6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C358918154DF16700B6FC56 /* AlignUtil.m */; };
 		6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C35891E154DF27A00B6FC56 /* NumberFormatter.m */; };
@@ -50,6 +55,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C2C714B1586EAEF007EC126 /* GComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GComponent.h; sourceTree = "<group>"; };
+		6C2C714C1586EAEF007EC126 /* GComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GComponent.m; sourceTree = "<group>"; };
+		6C2C714D1586EAEF007EC126 /* GImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GImage.h; sourceTree = "<group>"; };
+		6C2C714E1586EAEF007EC126 /* GImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GImage.m; sourceTree = "<group>"; };
+		6C2C714F1586EAEF007EC126 /* GLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLabel.h; sourceTree = "<group>"; };
+		6C2C71501586EAEF007EC126 /* GLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLabel.m; sourceTree = "<group>"; };
+		6C2C71541586EE25007EC126 /* ViewComponentsTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewComponentsTestCase.h; sourceTree = "<group>"; };
+		6C2C71551586EE25007EC126 /* ViewComponentsTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewComponentsTestCase.m; sourceTree = "<group>"; };
+		6C2C71571586EE47007EC126 /* ComponentsSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComponentsSuite.h; sourceTree = "<group>"; };
+		6C2C71581586EE47007EC126 /* ComponentsSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComponentsSuite.m; sourceTree = "<group>"; };
+		6C2C715A1586F40F007EC126 /* GButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GButton.h; sourceTree = "<group>"; };
+		6C2C715B1586F410007EC126 /* GButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GButton.m; sourceTree = "<group>"; };
+		6C2C715D1586F6BC007EC126 /* GTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTextField.h; sourceTree = "<group>"; };
+		6C2C715E1586F6BD007EC126 /* GTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTextField.m; sourceTree = "<group>"; };
+		6C2C71601586F6FC007EC126 /* GTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTextView.h; sourceTree = "<group>"; };
+		6C2C71611586F6FC007EC126 /* GTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTextView.m; sourceTree = "<group>"; };
 		6C35872A154DC4A200B6FC56 /* Geleca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geleca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C35872E154DC4A200B6FC56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		6C358730154DC4A200B6FC56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -86,10 +107,6 @@
 		6C35876D154DC4FC00B6FC56 /* GTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTestViewController.m; sourceTree = "<group>"; };
 		6C35876F154DC4FC00B6FC56 /* GTestSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTestSuite.h; sourceTree = "<group>"; };
 		6C358770154DC4FC00B6FC56 /* GTestSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTestSuite.m; sourceTree = "<group>"; };
-		6C358773154DC4FC00B6FC56 /* GComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GComponent.h; sourceTree = "<group>"; };
-		6C358774154DC4FC00B6FC56 /* GComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GComponent.m; sourceTree = "<group>"; };
-		6C358776154DC4FC00B6FC56 /* GImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GImage.h; sourceTree = "<group>"; };
-		6C358777154DC4FC00B6FC56 /* GImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GImage.m; sourceTree = "<group>"; };
 		6C35877A154DC4FC00B6FC56 /* ColorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtil.h; sourceTree = "<group>"; };
 		6C35877B154DC4FC00B6FC56 /* ColorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorUtil.m; sourceTree = "<group>"; };
 		6C35877C154DC4FC00B6FC56 /* DateUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateUtil.h; sourceTree = "<group>"; };
@@ -116,8 +133,6 @@
 		6C3587B5154DD37C00B6FC56 /* EventDispatcherTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventDispatcherTestCase.m; sourceTree = "<group>"; };
 		6C3587B7154DDA4800B6FC56 /* EventsSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsSuite.h; sourceTree = "<group>"; };
 		6C3587B8154DDA4800B6FC56 /* EventsSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsSuite.m; sourceTree = "<group>"; };
-		6C3587BA154DDEC800B6FC56 /* GLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLabel.h; sourceTree = "<group>"; };
-		6C3587BB154DDEC800B6FC56 /* GLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLabel.m; sourceTree = "<group>"; };
 		6C3587BD154DE1E900B6FC56 /* URLLoaderPostTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLLoaderPostTestCase.h; sourceTree = "<group>"; };
 		6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URLLoaderPostTestCase.m; sourceTree = "<group>"; };
 		6C358917154DF16600B6FC56 /* AlignUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlignUtil.h; sourceTree = "<group>"; };
@@ -128,7 +143,7 @@
 		6CBDA7851583DFC4007E1B50 /* DataUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtil.m; sourceTree = "<group>"; };
 		6CBDA7881583E13F007E1B50 /* UtilSuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UtilSuite.h; sourceTree = "<group>"; };
 		6CBDA7891583E13F007E1B50 /* UtilSuite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilSuite.m; sourceTree = "<group>"; };
-		6CBDA78B1583E21D007E1B50 /* DataUtilTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; path = DataUtilTestCase.h; sourceTree = "<group>"; };
+		6CBDA78B1583E21D007E1B50 /* DataUtilTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataUtilTestCase.h; sourceTree = "<group>"; };
 		6CBDA78C1583E21D007E1B50 /* DataUtilTestCase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataUtilTestCase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +161,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C2C714A1586EAEF007EC126 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				6C2C714B1586EAEF007EC126 /* GComponent.h */,
+				6C2C714C1586EAEF007EC126 /* GComponent.m */,
+				6C2C714D1586EAEF007EC126 /* GImage.h */,
+				6C2C714E1586EAEF007EC126 /* GImage.m */,
+				6C2C714F1586EAEF007EC126 /* GLabel.h */,
+				6C2C71501586EAEF007EC126 /* GLabel.m */,
+				6C2C715A1586F40F007EC126 /* GButton.h */,
+				6C2C715B1586F410007EC126 /* GButton.m */,
+				6C2C715D1586F6BC007EC126 /* GTextField.h */,
+				6C2C715E1586F6BD007EC126 /* GTextField.m */,
+				6C2C71601586F6FC007EC126 /* GTextView.h */,
+				6C2C71611586F6FC007EC126 /* GTextView.m */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
 		6C35871F154DC4A200B6FC56 = {
 			isa = PBXGroup;
 			children = (
@@ -341,38 +375,9 @@
 		6C358771154DC4FC00B6FC56 /* ui */ = {
 			isa = PBXGroup;
 			children = (
-				6C358772154DC4FC00B6FC56 /* component */,
+				6C2C714A1586EAEF007EC126 /* components */,
 			);
 			path = ui;
-			sourceTree = "<group>";
-		};
-		6C358772154DC4FC00B6FC56 /* component */ = {
-			isa = PBXGroup;
-			children = (
-				6C358773154DC4FC00B6FC56 /* GComponent.h */,
-				6C358774154DC4FC00B6FC56 /* GComponent.m */,
-				6C358775154DC4FC00B6FC56 /* image */,
-				6C358778154DC4FC00B6FC56 /* label */,
-			);
-			path = component;
-			sourceTree = "<group>";
-		};
-		6C358775154DC4FC00B6FC56 /* image */ = {
-			isa = PBXGroup;
-			children = (
-				6C358776154DC4FC00B6FC56 /* GImage.h */,
-				6C358777154DC4FC00B6FC56 /* GImage.m */,
-			);
-			path = image;
-			sourceTree = "<group>";
-		};
-		6C358778154DC4FC00B6FC56 /* label */ = {
-			isa = PBXGroup;
-			children = (
-				6C3587BA154DDEC800B6FC56 /* GLabel.h */,
-				6C3587BB154DDEC800B6FC56 /* GLabel.m */,
-			);
-			path = label;
 			sourceTree = "<group>";
 		};
 		6C358779154DC4FC00B6FC56 /* util */ = {
@@ -440,6 +445,8 @@
 				6C3587BE154DE1E900B6FC56 /* URLLoaderPostTestCase.m */,
 				6CBDA78B1583E21D007E1B50 /* DataUtilTestCase.h */,
 				6CBDA78C1583E21D007E1B50 /* DataUtilTestCase.m */,
+				6C2C71541586EE25007EC126 /* ViewComponentsTestCase.h */,
+				6C2C71551586EE25007EC126 /* ViewComponentsTestCase.m */,
 			);
 			path = case;
 			sourceTree = "<group>";
@@ -453,6 +460,8 @@
 				6C3587B8154DDA4800B6FC56 /* EventsSuite.m */,
 				6CBDA7881583E13F007E1B50 /* UtilSuite.h */,
 				6CBDA7891583E13F007E1B50 /* UtilSuite.m */,
+				6C2C71571586EE47007EC126 /* ComponentsSuite.h */,
+				6C2C71581586EE47007EC126 /* ComponentsSuite.m */,
 			);
 			path = suite;
 			sourceTree = "<group>";
@@ -476,6 +485,7 @@
 				6C358726154DC4A200B6FC56 /* Sources */,
 				6C358727154DC4A200B6FC56 /* Frameworks */,
 				6C358728154DC4A200B6FC56 /* Resources */,
+				6C2C71631586F862007EC126 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -493,7 +503,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0430;
-				ORGANIZATIONNAME = "Simbionte Studios";
+				ORGANIZATIONNAME = "Cristiano Coutinho Caldas";
 			};
 			buildConfigurationList = 6C358724154DC4A200B6FC56 /* Build configuration list for PBXProject "Geleca" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -523,6 +533,22 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6C2C71631586F862007EC126 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" ${PROJECT_DIR}/${PROJECT_NAME}/${PROJECT_NAME}-Info.plist)\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" ${PROJECT_DIR}/${PROJECT_NAME}/${PROJECT_NAME}-Info.plist";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6C358726154DC4A200B6FC56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -542,8 +568,6 @@
 				6C35879A154DC4FC00B6FC56 /* GTestCase.m in Sources */,
 				6C35879B154DC4FC00B6FC56 /* GTestViewController.m in Sources */,
 				6C35879C154DC4FC00B6FC56 /* GTestSuite.m in Sources */,
-				6C35879D154DC4FC00B6FC56 /* GComponent.m in Sources */,
-				6C35879E154DC4FC00B6FC56 /* GImage.m in Sources */,
 				6C35879F154DC4FC00B6FC56 /* ColorUtil.m in Sources */,
 				6C3587A0154DC4FC00B6FC56 /* DateUtil.m in Sources */,
 				6C3587A1154DC4FC00B6FC56 /* FunctionUtil.m in Sources */,
@@ -557,13 +581,20 @@
 				6C3587B3154DC80C00B6FC56 /* URLUtil.m in Sources */,
 				6C3587B6154DD37C00B6FC56 /* EventDispatcherTestCase.m in Sources */,
 				6C3587B9154DDA4800B6FC56 /* EventsSuite.m in Sources */,
-				6C3587BC154DDEC800B6FC56 /* GLabel.m in Sources */,
 				6C3587BF154DE1E900B6FC56 /* URLLoaderPostTestCase.m in Sources */,
 				6C358919154DF16700B6FC56 /* AlignUtil.m in Sources */,
 				6C35891F154DF27B00B6FC56 /* NumberFormatter.m in Sources */,
 				6CBDA7861583DFC4007E1B50 /* DataUtil.m in Sources */,
 				6CBDA78A1583E13F007E1B50 /* UtilSuite.m in Sources */,
 				6CBDA78D1583E21D007E1B50 /* DataUtilTestCase.m in Sources */,
+				6C2C71511586EAEF007EC126 /* GComponent.m in Sources */,
+				6C2C71521586EAEF007EC126 /* GImage.m in Sources */,
+				6C2C71531586EAEF007EC126 /* GLabel.m in Sources */,
+				6C2C71561586EE25007EC126 /* ViewComponentsTestCase.m in Sources */,
+				6C2C71591586EE47007EC126 /* ComponentsSuite.m in Sources */,
+				6C2C715C1586F410007EC126 /* GButton.m in Sources */,
+				6C2C715F1586F6BD007EC126 /* GTextField.m in Sources */,
+				6C2C71621586F6FD007EC126 /* GTextView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,7 +631,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -618,7 +649,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
