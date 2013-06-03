@@ -1,3 +1,13 @@
+version: 2.0
+#	GView Addictions
+#	GViewController Addictions
+#	GCell
+#	add TextUtil
+#	update ViewUtil, move and resize methods
+#	update AlignUtil, toLeft and toRight methods
+#	URLLoader - add progress percent on post method
++	Remove Eventdispatcher e start to use the Delegate pattern
+
 version: 1.1
 #	GLabel
 #	GButton

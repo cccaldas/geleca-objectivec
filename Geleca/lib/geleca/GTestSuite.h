@@ -3,20 +3,19 @@
 //  Geleca
 //
 //  Created by Cristiano Coutinho Caldas on 4/20/12.
-//  Copyright (c) 2012 Simbionte Studios. All rights reserved.
+//  Copyright (c) 2012 Cristiano Coutinho Caldas. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "GTestCase.h"
 
-@interface GTestSuite : NSObject {
+@interface GTestSuite : NSObject <GTestCaseDelegate> {
 	NSMutableArray *_cases;
 	int				_current;
 }
 
 @property (nonatomic, readonly) int length;
 @property (nonatomic, readonly) int assertions;
-@property (nonatomic, retain) UIView *view;
 
 -(void)setup;
 -(void)suiteComplete;

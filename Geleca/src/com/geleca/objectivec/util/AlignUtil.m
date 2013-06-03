@@ -3,12 +3,27 @@
 	Geleca
 	
 	Created by Cristiano Coutinho Caldas on 4/7/12.
-	Copyright (c) 2012 Simbionte Studios. All rights reserved.
+	Copyright (c) 2012 Cristiano Coutinho Caldas. All rights reserved.
 */
 
 #import "AlignUtil.h"
 
 @implementation AlignUtil
+
++(void)toLeft:(UIView *)target reference:(UIView *)reference {
+	target.frame = CGRectMake(reference.frame.origin.x, 
+							  target.frame.origin.y, 
+							  target.frame.size.width,
+							  target.frame.size.height);
+}
+
++(void)toRight:(UIView *)target reference:(UIView *)reference {
+	target.frame = CGRectMake(reference.frame.origin.x + reference.frame.size.width - target.frame.size.width, 
+							  target.frame.origin.y, 
+							  target.frame.size.width,
+							  target.frame.size.height);
+}
+
 
 +(void)toCenter:(UIView *)target reference:(UIView *)reference {
 	target.frame = CGRectMake(reference.frame.origin.x + ( (reference.frame.size.width - target.frame.size.width) * .5), 

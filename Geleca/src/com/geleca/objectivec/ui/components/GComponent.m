@@ -2,7 +2,7 @@
  UIComponent.m
  Geleca
  
- Created by Cristiano Caldas on 2012-02-02.
+ Created by Cristiano Coutinho Caldas on 2012-02-02.
  Copyright (c) 2012 Cristiano Coutinho Caldas. All rights reserved.
  */
 

@@ -3,17 +3,16 @@
 //  Geleca
 //
 //  Created by Cristiano Coutinho Caldas on 4/20/12.
-//  Copyright (c) 2012 Simbionte Studios. All rights reserved.
+//  Copyright (c) 2012 Cristiano Coutinho Caldas. All rights reserved.
 //
 
 #import "GTestSuite.h"
 
 @interface GTestSuite()
--(void)testCase_complete:(Event *)e;
+
 @end
 
 @implementation GTestSuite
-@synthesize view;
 
 -(id)init {
 	self = [super init];
@@ -26,7 +25,7 @@
 }
 
 -(void)setup {
-	_cases		= [[NSMutableArray array] retain];
+	_cases		= [NSMutableArray array];
 	_current	= 0;
 }
 
@@ -37,13 +36,14 @@
 -(void)addTestCase:(GTestCase *)testCase {
 	//NSLog(@"TestSuite::addTestCase() %@", testCase);
 	
-	testCase.view = self.view;
+	//testCase.view = self.view;
+	testCase.delegate = self;
 	
-	[testCase addEventListener:[Event COMPLETE] target:self listener:@selector(testCase_complete:)];
+	//[testCase addEventListener:[Event COMPLETE] target:self listener:@selector(testCase_complete:)];
 	[_cases addObject:testCase];
 }
 
--(void)testCase_complete:(Event *)e {
+-(void)testCaseComplete:(id)testCase {
 	_current ++;
 	
 	[self run];

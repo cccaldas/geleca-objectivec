@@ -7,14 +7,10 @@
 //
 
 #import "ViewComponentsTestCase.h"
-#import "GImage.h"
-#import "GLabel.h"
-#import "GButton.h"
+#import "GView.h"
 
 @interface ViewComponentsTestCase()
--(void)gImage;
--(void)gLabel;
--(void)gButton;
+-(void)control_touchDown:(id)sender;
 @end
 
 @implementation ViewComponentsTestCase
@@ -22,41 +18,27 @@
 -(void)setup {
 	[super setup];
 	
-	//[self gImage];
-	//[self gLabel];
-	[self gButton];
-}
-
--(void)gImage {
-	NSData *data = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:@"http://images.apple.com/home/images/macbookpro_hero.jpg"]];
-	GImage *image = [[GImage alloc] initWithImage:[[UIImage imageWithData:data] init]];
-	//GImage *image = [[GImage alloc] init];
-	//GImage *image = [[GImage alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];	
-	image.width		= 320;
-	image.height	= 460;
-	[self.view addSubview:image];
-	
-	[self testComplete];
-}
-
--(void)gLabel {
-	GLabel *label = [[GLabel alloc] init];
-	
-	label.text = @"Label Text";
-	[label sizeToFit];
-	
-	[self.view addSubview:label];
-	
-	[self testComplete];	
-}
-
--(void)gButton {
-	GButton *button = [GButton buttonWithType:UIButtonTypeRoundedRect];
-	[button setTitle:@"Text" forState:UIControlStateNormal];
-	button.frame = CGRectMake(10, 10, 100, 40);
+	UIButton *button	= [UIButton buttonWithType:UIButtonTypeRoundedRect];
+	button.width		= 200;
+	button.height		= 50;
+	button.x = button.y = 100;
+	[button setTitle:@"Button Label" forState:UIControlStateNormal];
 	[self.view addSubview:button];
 	
-	[self testComplete];
+	//UIControl *control = [[UIControl alloc] init];
+	UIControl *control = [[UIControl alloc] initWithFrame:CGRectMake(100, 100, 200, 100)];
+	[self.view addSubview:control];
+	
+	control.width = 200;
+	control.height = 100;
+	[control move:100 y:100];
+	control.backgroundColor = [UIColor redColor];
+	
+	[control addTarget:self action:@selector(control_touchDown:) forControlEvents:UIControlEventTouchDown];
+}
+
+-(void)control_touchDown:(id)sender {
+	NSLog(@"control_touchDown");
 }
 
 @end

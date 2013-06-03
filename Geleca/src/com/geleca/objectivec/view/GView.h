@@ -1,15 +1,21 @@
 /*
 	GView.h
 	
-	Created by Cristiano Caldas on 6/19/11.
-	Copyright 2011 Simbionte Studios. All rights reserved.
+	Created by Cristiano Coutinho Caldas on 6/19/11.
+	Copyright 2011 Cristiano Coutinho Caldas. All rights reserved.
 */
 
-#import "GComponent.h"
+#import "ViewUtil.h"
+#import "EventDispatcher.h"
 
-@interface GView : GComponent {
-    
+@interface UIView(Extension) {
+	//EventDispatcher *_dispatcher;
 }
 
-//-(void)setup;
+@property(nonatomic) float x, y, width, height;
+@property(nonatomic) BOOL visible;
+
+-(void)move:(float)x y:(float)y;
+-(void)resize:(float)width height:(float)height;
+
 @end

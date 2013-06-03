@@ -13,13 +13,8 @@
 
 @synthesize window = _window;
 
--(void)dealloc {
-	[_window release];
-    [super dealloc];
-}
-
 -(BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
 	
 	self.window.rootViewController = [[TestAppViewController alloc] init];
 	
