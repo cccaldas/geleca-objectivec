@@ -17,9 +17,10 @@
 @interface GTestCase : NSObject {
 	int _assertions;
 	int _passeds;
+    int _faileds;
 }
 
-@property (nonatomic, readonly) int assertions;
+@property (nonatomic, readonly) int assertions, passeds, faileds;
 @property (nonatomic, retain) UIView *view;
 @property (nonatomic, retain) id<GTestCaseDelegate> delegate;
 

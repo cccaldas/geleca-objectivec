@@ -15,7 +15,7 @@
 }
 
 @property (nonatomic, readonly) int length;
-@property (nonatomic, readonly) int assertions;
+@property (nonatomic, readonly) int assertions, passeds, faileds;
 
 -(void)setup;
 -(void)suiteComplete;

@@ -30,7 +30,7 @@
 }
 
 -(void)suiteComplete {
-	NSLog(@"%@::suiteComplete(), assertions: %d", self, self.assertions);
+	NSLog(@"%@::suiteComplete(), Assertions: %d, Passeds: %d, Faileds: %d", self, self.assertions, self.passeds, self.faileds);
 }
 
 -(void)addTestCase:(GTestCase *)testCase {
@@ -56,6 +56,8 @@
 	
 	for (GTestCase *testCase in _cases) {
 		_assertions += testCase.assertions;
+        _passeds    += testCase.passeds;
+        _faileds    += testCase.faileds;
 	}
 	
 	return _assertions;

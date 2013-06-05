@@ -27,11 +27,17 @@
 -(void)assert:(BOOL)condition description:(NSString *)description {
 	_assertions ++;
 	
-	if(!condition)
+	if(!condition) {
 		NSLog(@"[FAILED] %@", description);
+        _faileds ++;
+    }
+    else
+        _passeds ++;
 	//NSAssert(condition, description);
 }
 
--(int)assertions { return _assertions; }
+-(int)assertions    { return _assertions; }
+-(int)passeds       { return _passeds; }
+-(int)faileds       { return _faileds; }
 
 @end
